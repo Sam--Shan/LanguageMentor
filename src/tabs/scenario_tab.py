@@ -44,8 +44,8 @@ def create_scenario_tab():
             choices=[
                 ("求职面试", "job_interview"),  # 求职面试选项
                 ("酒店入住", "hotel_checkin"),  # 酒店入住选项
-                # ("薪资谈判", "salary_negotiation"),  # 薪资谈判选项（注释掉）
-                # ("租房", "renting")  # 租房选项（注释掉）
+                ("薪资谈判", "salary_negotiation"),  # 薪资谈判选项（注释掉）
+                ("租房", "renting")  # 租房选项（注释掉）
             ], 
             label="场景"  # 单选框标签
         )
